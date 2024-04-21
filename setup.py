@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="geminiwrapper",
-    version="0.0.1",
+    version="0.0.2",
     packages=find_packages(),
     install_requires=[
         "google-generativeai",
@@ -11,5 +11,9 @@ setup(
     author="Min Htet Naing",
     author_email="minhtetnaing25mhn@gmail.com",
     url="https://github.com/Osbertt-19/gemini-wrapper",
-    keywords=["gemini", "object", "json", "wrapper", "consistent"],
+    keywords="gemini, object, json, wrapper, consistent",
+    classifiers=[
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Programming Language :: Python",
+    ],
 )
