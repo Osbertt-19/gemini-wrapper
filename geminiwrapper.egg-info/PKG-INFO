@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: geminiwrapper
+Version: 0.0.2
+Summary: Library for generating consistent Gemini API outputs and wrapping them with json and python objects
+Home-page: https://github.com/Osbertt-19/gemini-wrapper
+Author: Min Htet Naing
+Author-email: minhtetnaing25mhn@gmail.com
+Keywords: gemini,object,json,wrapper,consistent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python
