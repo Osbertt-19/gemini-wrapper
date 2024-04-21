@@ -66,7 +66,7 @@ country2 = Country(
 json_model = JsonWrapper(api_key, [json1, json2])
 ```
 
-    api_key is the Gemini API key obtained from [this link](https://ai.google.dev/tutorials/setup)
+api_key is the Gemini API key obtained from [this link](https://ai.google.dev/tutorials/setup)
 
 - For python object output,
 
@@ -74,8 +74,7 @@ json_model = JsonWrapper(api_key, [json1, json2])
 object_model = ObjectWrapper(api_key, __name__, [country1, country2])
 ```
 
-    api_key is the Gemini API key obtained from [this link](https://ai.google.dev/tutorials/setup)
-
+api_key is the Gemini API key obtained from [this link](https://ai.google.dev/tutorials/setup)
 \_\_name\_\_ is to pass the name of the module.
 
 5. Generate Content:
@@ -87,7 +86,7 @@ prompt = "Write about Myanmar, Singapore, United States and Germany"
 response = json_model.generate_content(prompt)
 ```
 
-    response is a list of dictionaries that can be processed as follow.
+response is a list of dictionaries that can be processed as follow.
 
 ```python
 for country in response:
@@ -104,7 +103,7 @@ prompt = "Write about Myanmar, Singapore, United States and Germany"
 response: List[Country] = object_model.generate_content(prompt)
 ```
 
-    response is a list of Country objects that can be processed as follow.
+response is a list of Country objects that can be processed as follow.
 
 ```python
 for country in response:
